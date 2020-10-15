@@ -1,0 +1,8 @@
+{
+  "name": "thoresuenert/inertia-teams",
+  "extra": {
+    "inertia": {
+      "namespace" : "teams"
+    }
+  }
+}

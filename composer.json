@@ -23,6 +23,9 @@
       "providers": [
         "Thoresuenert\\InertiaTeams\\InertiaTeamsServiceProvider"
       ]
+    },
+    "inertia": {
+      "namespace" : "teams"
     }
   }
 }
