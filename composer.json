@@ -1,0 +1,28 @@
+{
+  "name": "thoresuenert/inertia-teams",
+  "description": "Teams Modul for your cloud",
+  "type": "cloud-app",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thore Suenert",
+      "email": "mail@thoresuenert.de"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "orchestra/testbench": "3.5.* || 3.6.* || 3.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Thoresuenert\\InertiaTeams\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Thoresuenert\\InertiaTeams\\InertiaTeamsServiceProvider"
+      ]
+    }
+  }
+}
