@@ -1,8 +1,28 @@
 {
-  "name": "thoresuenert/inertia-teams",
+  "name": "@thoresuenert/teams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resources/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoresuenert/inertia-teams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoresuenert/inertia-teams/issues"
+  },
+  "homepage": "https://github.com/thoresuenert/inertia-teams#readme",
   "extra": {
     "inertia": {
-      "namespace" : "teams"
+      "namespace": "teams",
+      "vendor": "thoresuenert/inertia-teams"
     }
+  },
+  "dependencies": {
+    "dayjs": "^1.9.3"
   }
 }
